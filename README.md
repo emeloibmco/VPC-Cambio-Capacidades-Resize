@@ -3,6 +3,8 @@ Los servidores virtuales se configuran mediante perfiles o una combinación de a
 
 La presente guía se centra en mostrar los pasos que se deben realizar para duplicar y reducir a la mitad la cantidad de vCPU y memoria de una *VSI* en *VPC*.
 
+<br />
+
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Detener VSI](#Detener-VSI-stop_sign)
