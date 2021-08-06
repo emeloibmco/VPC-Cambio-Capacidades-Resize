@@ -1,5 +1,7 @@
 # VPC - Cambiar Tamaño (Resize) ☁⚙
+Los servidores virtuales se configuran mediante perfiles o una combinación de atributos de instancia, como la cantidad de CPU virtuales, la cantidad de RAM, el ancho de banda de la red y más, que definen el tamaño y las capacidades de la instancia del servidor virtual. Cuando implementa una *VSI* en *IBM Cloud*, puede cambiar el tamaño de su instancia de servidor virtual y escalar verticalmente a cualquier tamaño de perfil admitido en minutos. Puede aumentar o disminuir la cantidad de vCPU y RAM disponibles para una mayor flexibilidad en la administración de la carga de trabajo para abordar los cambios en los requisitos de recursos, optimizar el costo o el rendimiento de la carga de trabajo.
 
+La presente guía se centra en mostrar los pasos que se deben realizar para duplicar y reducir a la mitad la cantidad de vCPU y memoria de una *VSI* en *VPC*.
 
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
@@ -11,7 +13,7 @@
 <br />
 
 ## Pre-Requisitos :pencil:
-* Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud </a>.
+* Contar con una cuenta en <a href="https://cloud.ibm.com/"> IBM Cloud</a>.
 * Contar con una *VPC* y una *VSI*.
 <br />
 
@@ -73,6 +75,7 @@ Cuando la *VSI* esté lista deberá observar el estado ```En ejecución```.
 <br />
 
 ## Referencias :mag:
+* Contar con una cuenta en <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-resizing-an-instance&interface=ui"> Resizing a virtual server instance</a>.
 <br />
 
 ## Autores :black_nib:
