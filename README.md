@@ -26,7 +26,7 @@ El primer paso que se debe realizar antes de aplicar cambios de tamaño a los pe
 Para cambiar el tamaño de la *VSI* duplicando la cantidad de los VCPU y memoria, siga los pasos que se muestran a continuación:
 <br />
 
-1. Visualiza la *VSI* que se encuentra en estado *detenido*, de click en los 3 puntos y seleccione la opción ```Cambiar tamaño```.
+1. Visualiza la *VSI* que se encuentra en estado ```detenido```, de click en los 3 puntos y seleccione la opción ```Cambiar tamaño```.
 <br />
 
 2. Cuando aparezca la nueva ventana, cambie el perfil de su *VSI*. Para este caso, se cuenta con una *VSI* de perfil ```bx2-2x8``` que se cambia a ```bx2-4x16```.
@@ -35,7 +35,7 @@ Para cambiar el tamaño de la *VSI* duplicando la cantidad de los VCPU y memoria
 3. Después de cambiar el perfil, acepte los cambios en el importe de pago y de click en el botón ```Redimensionar instancia de servidor virtual```.
 <br />
 
-4. Espere mientras aparece la nueva configuración y en los tres puntos de click en la opción ```Iniciar``` para ponder nuevamente en ejecución la *VSI*.
+4. Espere mientras aparece la nueva configuración y en los tres puntos de click en la opción ```Iniciar``` para poner nuevamente en ejecución la *VSI*.
 <br />
 
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Cambio-Capacidades-Resize/blob/main/Im%C3%A1genes/Duplicar%20Tama%C3%B1o.gif"></p>
@@ -48,7 +48,27 @@ Cuando la *VSI* esté lista deberá observar el estado ```En ejecución```.
 <br />
 
 ## Cambiar tamaño de VSI reduciendo perfil a la mitad :inbox_tray: :computer:
+Para cambiar el tamaño de la *VSI* reduciendo la cantidad de los VCPU y memoria, recuerde detener la instancia como se indicó en el paso [Detener VSI](#Detener-VSI-stop_sign). Posteriormente, siga los pasos que se muestran a continuación:
+<br />
+
+1. Visualiza la *VSI* que se encuentra en estado ```detenido```, de click en los 3 puntos y seleccione la opción ```Cambiar tamaño```.
+<br />
+
+2. Cuando aparezca la nueva ventana, cambie el perfil de su *VSI*. Para este caso, se cuenta con una *VSI* de perfil ```bx2-4x16``` que se cambia a ```bx2-2x8```.
+<br />
+
+3. Después de cambiar el perfil, acepte los cambios en el importe de pago y de click en el botón ```Redimensionar instancia de servidor virtual```.
+<br />
+
+4. Espere mientras aparece la nueva configuración y en los tres puntos de click en la opción ```Iniciar``` para poner nuevamente en ejecución la *VSI*.
+<br />
+
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Cambio-Capacidades-Resize/blob/main/Im%C3%A1genes/Reducir%20Tama%C3%B1o.gif"></p>
+<br />
+
+Cuando la *VSI* esté lista deberá observar el estado ```En ejecución```.
+<br />
+
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Cambio-Capacidades-Resize/blob/main/Im%C3%A1genes/ReducirOK.PNG"></p>
 <br />
 
