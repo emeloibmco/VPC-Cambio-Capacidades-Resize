@@ -4,8 +4,8 @@
 ## Índice  📰
 1. [Pre-Requisitos](#Pre-Requisitos-pencil)
 2. [Detener VSI](#Detener-VSI-stop_sign)
-3. [Cambiar tamaño de VSI duplicando perfil](#Cambiar-tamaño-de-VSI-duplicando-perfil-outbox_tray-computer)
-4. [Cambiar tamaño de VSI reduciendo perfil a la mitad](#Cambiar-tamaño-de-VSI-reduciendo-perfil-a-la-mitad-inbox_tray-computer)
+3. [Cambiar tamaño de VSI duplicando vCPU y memoria](#Cambiar-tamaño-de-VSI-duplicando-vCPU-y-memoria-outbox_tray-computer)
+4. [Cambiar tamaño de VSI reduciendo vCPU y memoria a la mitad](#Cambiar-tamaño-de-VSI-reduciendo-vCPU-y-memoria-a-la-mitad-inbox_tray-computer)
 7. [Referencias](#Referencias-mag)
 8. [Autores](#Autores-black_nib)
 <br />
@@ -22,8 +22,8 @@ El primer paso que se debe realizar antes de aplicar cambios de tamaño a los pe
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Cambio-Capacidades-Resize/blob/main/Im%C3%A1genes/Detener%20VSI.gif"></p>
 <br />
 
-## Cambiar tamaño de VSI duplicando perfil :outbox_tray: :computer:
-Para cambiar el tamaño de la *VSI* duplicando la cantidad de los VCPU y memoria, siga los pasos que se muestran a continuación:
+## Cambiar tamaño de VSI duplicando vCPU y memoria :outbox_tray: :computer:
+Para cambiar el tamaño de la *VSI* duplicando la cantidad de los vCPU y memoria, siga los pasos que se muestran a continuación:
 <br />
 
 1. Visualiza la *VSI* que se encuentra en estado ```detenido```, de click en los 3 puntos y seleccione la opción ```Cambiar tamaño```.
@@ -47,8 +47,8 @@ Cuando la *VSI* esté lista deberá observar el estado ```En ejecución```.
 <p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Cambio-Capacidades-Resize/blob/main/Im%C3%A1genes/DuplicarOK.PNG"></p>
 <br />
 
-## Cambiar tamaño de VSI reduciendo perfil a la mitad :inbox_tray: :computer:
-Para cambiar el tamaño de la *VSI* reduciendo la cantidad de los VCPU y memoria, recuerde detener la instancia como se indicó en el paso [Detener VSI](#Detener-VSI-stop_sign). Posteriormente, siga los pasos que se muestran a continuación:
+## Cambiar tamaño de VSI reduciendo vCPU y memoria a la mitad :inbox_tray: :computer:
+Para cambiar el tamaño de la *VSI* reduciendo la cantidad de los cCPU y memoria, recuerde detener la instancia como se indicó en el paso [Detener VSI](#Detener-VSI-stop_sign). Posteriormente, siga los pasos que se muestran a continuación:
 <br />
 
 1. Visualiza la *VSI* que se encuentra en estado ```detenido```, de click en los 3 puntos y seleccione la opción ```Cambiar tamaño```.
