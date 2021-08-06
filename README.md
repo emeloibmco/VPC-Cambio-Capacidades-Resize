@@ -15,15 +15,18 @@
 * Contar con una *VPC* y una *VSI*.
 <br />
 
-<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Conexion-VPN/blob/main/Imagenes/vpn.gif"></p>
-
 ## Detener VSI :stop_sign:
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Cambio-Capacidades-Resize/blob/main/Im%C3%A1genes/Detener%20VSI.gif"></p>
 <br />
 
 ## Cambiar tamaño de VSI duplicando perfil :outbox_tray: :computer:
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Cambio-Capacidades-Resize/blob/main/Im%C3%A1genes/Duplicar%20Tama%C3%B1o.gif"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Cambio-Capacidades-Resize/blob/main/Im%C3%A1genes/DuplicarOK.PNG"></p>
 <br />
 
 ## Cambiar tamaño de VSI reduciendo perfil a la mitad :inbox_tray: :computer:
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Cambio-Capacidades-Resize/blob/main/Im%C3%A1genes/Reducir%20Tama%C3%B1o.gif"></p>
+<p align="center"><img width="700" src="https://github.com/emeloibmco/VPC-Cambio-Capacidades-Resize/blob/main/Im%C3%A1genes/ReducirOK.PNG"></p>
 <br />
 
 ## Referencias :mag:
