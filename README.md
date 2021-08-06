@@ -1,1 +1,1 @@
-# VPC-Cambiar-Tama-o--Resize-
+# VPC - Cambiar Tamaño (Resize) ☁⚙
