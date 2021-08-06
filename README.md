@@ -75,7 +75,7 @@ Cuando la *VSI* esté lista deberá observar el estado ```En ejecución```.
 <br />
 
 ## Referencias :mag:
-* Contar con una cuenta en <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-resizing-an-instance&interface=ui"> Resizing a virtual server instance</a>.
+* <a href="https://cloud.ibm.com/docs/vpc?topic=vpc-resizing-an-instance&interface=ui"> Resizing a virtual server instance</a>.
 <br />
 
 ## Autores :black_nib:
